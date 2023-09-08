@@ -33,7 +33,7 @@ function App() {
           return;
         }
         setResult(results);
-        console.log(results)
+        // console.log(results)
       });
     }
   }, 500);
@@ -66,9 +66,8 @@ function App() {
               {start ? "Stop" : "Start"}
             </button>
           )}
-
-          {result && result.map((key, index) => (
-            <p>
+          {result && result.slice(0, 1).map((key, index) => (
+            <p className="pred">
               {key["label"] + " " + key["confidence"]}
             </p>
           ))}
