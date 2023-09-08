@@ -1,6 +1,6 @@
 # SAM_Live2Code
 
-## Team One Code
+## Team SAM
 - [Rahul Sahani](https://github.com/Rahul-Sahani04/) **(Leader)**
 - [Vishvara Gandharv](https://github.com/vishvara-sharda)
 - [Mir Anish](https://github.com/miranish)
