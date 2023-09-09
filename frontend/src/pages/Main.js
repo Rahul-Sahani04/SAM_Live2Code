@@ -24,7 +24,7 @@ function Main() {
 
   useEffect(() => {
 
-    classifier = ml5.imageClassifier("/model/model.json", () => {
+    classifier = ml5.imageClassifier("/model/modelV1.json", () => {
       navigator.mediaDevices
         .getUserMedia({ video: true, audio: false })
         .then((stream) => {
@@ -106,37 +106,43 @@ function Main() {
 
   return (
     <div className="container">
-      <div className="upper">
+      <div className="upper w-full mt-6 flex justify-center">
         <div className="capture">
           <Camera
-          videoRef={videoRef}
-          width={"500"}
-          height={"250"}
+            videoRef={videoRef}
+            width={"500"}
+            height={"250"}
           />
-          {loaded && (
-            <button onClick={() => toggle()}>
-              {start ? "Stop" : "Start"}
-            </button>
-          )}
-          <p className="sentence">
+          <p className="sentence text-2xl">
             Wait: {delay % 1 ? "" : delay}
           </p>
           {sentence && (
-            <p className="sentence">
+            <p className="sentence text-3xl">
               Sentence: {sentence}
             </p>
           )}
           {result && result.slice(0, 1).map((key, index) => (
-            <p className="pred" key={index}>
-              {key["label"] + " " + key["confidence"]}
+            <p className="pred text-2xl" key={index}>
+              Prediction: {key["label"] + " " + key["confidence"]}
             </p>
           ))}
+ 
+          {loaded && (
+            <button
+              className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded m-4"
+              onClick={() => toggle()}>
+              {start ? "Stop" : "Start"}
+            </button>
+          )}
+
           {speaking && <p>Speaking...</p>}
+          <button
+            className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+            value={"Click"} onClick={handleSpeak}>Play</button>
         </div>
-        <button value={"Click"} onClick={handleSpeak}>Play</button>
 
         {/* Voice Selection Dropdown */}
-        
+
         {/* <div>
           <label>Select Voice: </label>
           <select
