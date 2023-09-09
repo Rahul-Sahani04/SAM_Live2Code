@@ -224,13 +224,6 @@ const About = () => {
                 </p>
               </a>
             </div>
-            {/* <div className="flex-none mt-auto  rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div className="flex items-center justify-center">
-                <button className="mx-auto lg:mx-0 hover:underline gradient2  font-extrabold rounded my-6 py-4 px-8 shadow-lg">
-                  Action
-                </button>
-              </div>
-            </div> */}
           </div>
 
           <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
@@ -251,13 +244,6 @@ const About = () => {
                 </p>
               </a>
             </div>
-            {/* <div className="flex-none mt-auto  rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div className="flex items-center justify-end">
-                <button className="mx-auto lg:mx-0 hover:underline gradient2  font-extrabold rounded my-6 py-4 px-8 shadow-lg">
-                  Action
-                </button>
-              </div>
-            </div> */}
           </div>
         </div>
       </section>
