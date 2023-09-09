@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/sign" element={<Main />} />
+        <Route path="/sign_recog" element={<Main />} />
       </Routes>
     </BrowserRouter>
   );

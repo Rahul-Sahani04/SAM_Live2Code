@@ -23,7 +23,7 @@ export default function Footer() {
             <p className="uppercase font-extrabold text-gray-500 md:mb-6">
               Links
             </p>
-            <ul className="list-reset mb-6">
+            <ul className="list-reset mb-6 text-gray-900">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
@@ -54,7 +54,7 @@ export default function Footer() {
             <p className="uppercase font-extrabold text-gray-500 md:mb-6">
               Legal
             </p>
-            <ul className="list-reset mb-6">
+            <ul className="list-reset mb-6 text-gray-900">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
@@ -66,7 +66,7 @@ export default function Footer() {
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
-                  className="font-light no-underline hover:underline  hover:text-orange-500"
+                  className="font-light  no-underline hover:underline  hover:text-orange-500"
                 >
                   Privacy
                 </a>
@@ -77,7 +77,7 @@ export default function Footer() {
             <p className="uppercase font-extrabold text-gray-500 md:mb-6">
               Social
             </p>
-            <ul className="list-reset mb-6">
+            <ul className="list-reset mb-6 text-gray-900">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
@@ -106,9 +106,9 @@ export default function Footer() {
           </div>
           <div className="flex-1">
             <p className="uppercase font-extrabold text-gray-500 md:mb-6">
-              Company
+              KNOW MORE
             </p>
-            <ul className="list-reset mb-6">
+            <ul className="list-reset mb-6 text-gray-900">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
@@ -119,7 +119,7 @@ export default function Footer() {
               </li>
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="#about"
                   className="font-light no-underline hover:underline  hover:text-orange-500"
                 >
                   About Us
@@ -127,7 +127,7 @@ export default function Footer() {
               </li>
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="#team"
                   className="font-light no-underline hover:underline  hover:text-orange-500"
                 >
                   Contact

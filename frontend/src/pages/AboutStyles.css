@@ -1,8 +1,14 @@
 @import url("https://rsms.me/inter/inter.css");
-.imgHover:hover{
+
+.imgHover:hover {
   transition: all 300ms ease-in;
   transform: scale(1.02);
 }
+
+/* .heading {
+  text-shadow: 0 0 20px #eee;
+} */
+
 html {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
@@ -15,22 +21,22 @@ html {
  * Contribute: https://gist.github.com/jarthod/8719db9fef8deb937f4f
  * Live example: https://updown.io
  */
-         
- .gradient2 {
-  background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
-  padding: 15px 45px; 
+
+.gradient2 {
+  background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+  padding: 15px 45px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;            
+  color: white;
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: block;
 }
 
 .gradient2:hover {
-  background-position: right center; /* change the direction of the change here */
+  background-position: right center;
   color: #fff;
   text-decoration: none;
 }
@@ -64,7 +70,8 @@ html {
   background-color: #333333;
   color: #FFFFFF;
 }
-p{
+
+p {
   color: whitesmoke;
 }
 
@@ -75,11 +82,11 @@ p{
   position: relative;
 }
 
-.animated-heading{
-transition: all 2s linear;
-transform: translateX(-220%);
+.animated-heading {
+  transition: all 2s linear;
+  transform: translateX(-220%);
 }
 
 #about {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }

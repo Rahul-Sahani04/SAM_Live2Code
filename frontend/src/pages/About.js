@@ -4,12 +4,13 @@ import Navbar from "../components/Navbar";
 import image1 from "../images/image1.png";
 import image2 from "../images/image2.png";
 import image3 from "../images/image3.png";
+import { useNavigate } from "react-router-dom";
 
 import { useEffect, useState } from "react";
 
 const About = () => {
   const [scrolling, setScrolling] = useState(false);
-
+  const navigate = useNavigate();
   useEffect(() => {
     const heading = document.querySelector(".animated-heading");
 
@@ -27,21 +28,27 @@ const About = () => {
     });
   }, []);
 
+  function navigateTo(path="/") {
+    navigate(path)
+  }
+
   return (
     <div className="about  leading-relaxed tracking-wide flex flex-col">
       <Navbar links={["Home", "About", "Contact"]} atag={["about", "team"]} />
 
       <div className="container mx-auto h-screen">
         <div className="text-center px-3 lg:px-0">
-          <h1 className=" mt-4 text-8xl md:text-3xl lg:text-5xl  leading-tight imgHover">
+          <h1 className="heading mt-4 text-9xl md:text-3xl lg:text-5xl  leading-tight imgHover">
             SAM
           </h1>
           <p className="leading-normal  text-base md:text-xl lg:text-2xl mb-8">
             Unlock the World of Sign Language
           </p>
 
-          <div className="flex items-center justify-start">
-            <button className="mx-auto lg:mx-0 hover:underline gradient2  font-extrabold rounded my-6 py-4 px-8 shadow-lg">
+          <div className="w-full flex items-center justify-center p-6">
+            <button
+            onClick={() => navigateTo("/sign_recog")}
+            className="mx-auto lg:mx-0 hover:underline gradient2  font-extrabold rounded my-6 py-4 px-8 shadow-lg">
               Get Started
             </button>
           </div>
