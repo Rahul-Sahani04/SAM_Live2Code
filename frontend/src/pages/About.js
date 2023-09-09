@@ -77,8 +77,6 @@ const About = () => {
             SIGN LANGUAGE
           </h2>
         </div>
-        
- 
       </div>
 
       <section className="bg-gray-800 border-b py-8" id="about">
@@ -87,15 +85,15 @@ const About = () => {
             About Us
           </h2>
           <div className="w-full flex items-center justify-center p-6">
-          {/* IMAGE */}
-          <img
-            style={{
-              width: "40%",
-            }}
-            src={image1}
-            alt="image1"
-          />
-        </div>
+            {/* IMAGE */}
+            <img
+              style={{
+                width: "40%",
+              }}
+              src={image1}
+              alt="image1"
+            />
+          </div>
           <div className="w-full mb-4">
             <div className="h-1 mx-auto  w-64 opacity-25 my-0 py-0 rounded-t"></div>
           </div>
@@ -174,16 +172,15 @@ const About = () => {
             </div>
           </div>
           {/* <div className="flex-none mt-auto  rounded-b rounded-t-none overflow-hidden shadow p-6"> */}
-
         </div>
 
         {/* </div> */}
       </section>
 
-      <section className="border-b py-8">
+      <section className="border-b py-8 about">
         <div className="container mx-auto flex flex-wrap pt-4 pb-12">
           <h2 className="w-full my-2 text-5xl  leading-tight text-center ">
-            Getting Started
+            User Guide
           </h2>
           <div className="w-full mb-4">
             <div className="h-1 mx-auto  w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -195,20 +192,45 @@ const About = () => {
                 href="#"
                 className="flex flex-wrap no-underline hover:no-underline"
               >
-                {/* <p className="w-full  text-xs md:text-sm px-6 mt-6">About Us</p> */}
-                <div className="w-full font-bold text-xl  px-6 mt-6">
-                  Sign-to-Speech translation :
+                <div className="w-full text-xl  px-6 mt-6">
+                  <ol>
+                    <li>
+                      <b>Step 1: Setup the software</b>
+                      <ol>
+                        <li>
+                          1. Access the website: Begin by accessing our
+                          sign-to-speech translation software.
+                        </li>
+                        <li>
+                          2. Connect a webcam: Ensure that you have a functional
+                          webcam connected to your system, as this will be used
+                          to capture your sign language gestures.
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                  <br />
+
+                  <ol>
+                    <li>
+                      <b>Step 2: Launch and configure the software</b>
+                      <ol>
+                        <li>
+                          1. Open the website: Launch the sign-to-speech
+                          software on your browser.
+                        </li>
+                        <li>
+                          2. Select User settings: Configure your user settings,
+                          such as camera preferences, sign language preference
+                          (e.g., American Sign Language, British Sign Language),
+                          and text-to-speech options (e.g., voice, speed,
+                          language).
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                  <br />
                 </div>
-                <p className=" text-base px-6 mb-5">
-                  Sign language is a rich and expressive form of communication
-                  used by millions of people around the world who are deaf or
-                  hard of hearing. However, for those who do not understand sign
-                  language, communication can be challenging. To bridge this
-                  communication gap, we have developed a React project that
-                  leverages cutting-edge technology to facilitate sign language
-                  to speech translation. Our project aims to make communication
-                  more accessible and inclusive for all.
-                </p>
               </a>
             </div>
           </div>
@@ -219,16 +241,56 @@ const About = () => {
                 href="#"
                 className="flex flex-wrap no-underline hover:no-underline"
               >
-                <p className="w-full  text-xs md:text-sm px-6 mt-6">
-                  GETTING STARTED
-                </p>
-                <div className="w-full font-bold text-xl  px-6">
-                  Lorem ipsum dolor sit amet.
+                <div className="w-full text-xl  px-6 mt-6">
+                  <ol>
+                    <li>
+                      <b>Step 3: Start using the software</b>
+                      <ol>
+                        <li>
+                          1. Position yourself: Sit in front of your computer's
+                          webcam in a well-lit environment. Make sure your hands
+                          and upper body are visible within the camera's frame.
+                        </li>
+                        <li>
+                          2. Calibration (optional): Some software may require
+                          initial calibration to recognize your specific signing
+                          style and gestures accurately. Follow the on-screen
+                          instructions to perform any necessary calibration
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                  <br />
+
+                  <ol>
+                    <li>
+                      <b>Step 4: Sign recognition and translation</b>
+                      <ol>
+                        <li>
+                          1. Start signing: Begin signing in front of the
+                          webcam. The software will capture your sign language
+                          gestures in real-time.
+                        </li>
+                        <li>
+                          2. Gesture recognition: The software's backend will
+                          process the video feed from the webcam using computer
+                          vision algorithms. These algorithms analyze your hand
+                          movements, positions, and facial expressions to
+                          recognize signs.
+                        </li>
+                        <li>
+                          3. Translate to text: As each sign is recognized, the
+                          software will convert it into its corresponding
+                          character or letter. This is typically displayed in a
+                          text box on the screen. The software may also provide
+                          feedback by highlighting the recognized sign or
+                          character.
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                  <br />
                 </div>
-                <p className=" text-base px-6 mb-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                </p>
               </a>
             </div>
           </div>
@@ -239,11 +301,47 @@ const About = () => {
                 href="#"
                 className="flex flex-wrap no-underline hover:no-underline"
               >
-                <p className="w-full  text-xs md:text-sm px-6 mt-6">
-                  GETTING STARTED
-                </p>
-                <div className="w-full font-bold text-xl  px-6">
-                  Lorem ipsum dolor sit amet.
+                <div className="w-full text-xl  px-6 mt-6">
+                  <ol>
+                    <li>
+                      <b>Step 5: Review and Edit</b>
+                      <ol>
+                        <li>
+                          1. Review the tect: Carefully review the text in the
+                          text box to ensure it accurately represents the signs
+                          you made. The software may not be perfect and may make
+                          occasional errors.
+                        </li>
+                        <li>
+                          2. Edit if necessary: If there are any inaccuracies or
+                          misinterpretations in the text, you can manually edit
+                          the text in the text box to correct them.
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
+                  <br />
+
+                  <ol>
+                    <li>
+                      <b>Step 6: Generate Speech</b>
+                      <ol>
+                        <li>
+                          1. Text-to-Speech Conversion: Once you are satisfied
+                          with the text representation of your signs, you can
+                          click a button or select an option to initiate
+                          text-to-speech conversion.
+                        </li>
+                        <li>
+                          2. Speech Output: The software will use a
+                          text-to-speech synthesis engine to convert the text
+                          into audible speech. You will hear the spoken words or
+                          sentences through your computer's speakers or
+                          headphones.
+                        </li>
+                      </ol>
+                    </li>
+                  </ol>
                 </div>
                 <p className="  text-base px-6 mb-5">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
