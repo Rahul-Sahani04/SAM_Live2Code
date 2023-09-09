@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
-    <footer className="bg-white ">
-      <div className="container mx-auto mt-8 px-8">
-        <div className="w-full flex flex-col md:flex-row py-6">
-          <div className="flex-1 mb-6">
+    <footer className="dark:bg-gray-800 light:bg-gray-50">
+      <div className=" mx-auto mt-8 px-8">
+        <div className=" w-full flex flex-col md:flex-row py-6">
+          <div className=" flex-1 mb-6">
             <a
               className="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
               href="#"
@@ -23,7 +23,7 @@ export default function Footer() {
             <p className="uppercase font-extrabold text-gray-500 md:mb-6">
               Links
             </p>
-            <ul className="list-reset mb-6 text-gray-900">
+            <ul className="list-reset mb-6 dark:text-gray-50 light:text-gray-9000">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
@@ -54,7 +54,7 @@ export default function Footer() {
             <p className="uppercase font-extrabold text-gray-500 md:mb-6">
               Legal
             </p>
-            <ul className="list-reset mb-6 text-gray-900">
+            <ul className="list-reset mb-6 dark:text-gray-50 light:text-gray-9000">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
@@ -77,7 +77,7 @@ export default function Footer() {
             <p className="uppercase font-extrabold text-gray-500 md:mb-6">
               Social
             </p>
-            <ul className="list-reset mb-6 text-gray-900">
+            <ul className="list-reset mb-6 dark:text-gray-50 light:text-gray-9000">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
@@ -108,7 +108,7 @@ export default function Footer() {
             <p className="uppercase font-extrabold text-gray-500 md:mb-6">
               KNOW MORE
             </p>
-            <ul className="list-reset mb-6 text-gray-900">
+            <ul className="list-reset mb-6 dark:text-gray-50 light:text-gray-9000">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"

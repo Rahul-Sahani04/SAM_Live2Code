@@ -52,17 +52,13 @@ const About = () => {
               Get Started
             </button>
           </div>
-          <a
+          {/* <a
             href="#"
             className="inline-block mx-auto lg:mx-0 hover:underline bg-transparent  font-extrabold my-2 md:my-6 py-2 lg:py-4 px-8"
           >
             View Additional Action
-          </a>
+          </a> */}
         </div>
-        {/* 
-        // <div className="flex items-center w-full mx-auto content-end">
-        //   <div className="browser-mockup flex flex-1 m-6 md:px-0 md:m-12  w-1/2 rounded shadow-xl"> test</div>
-        // </div> */}
         <div className="w-full flex items-center justify-center p-6 ">
           {/* IMAGE */}
           <img
@@ -99,7 +95,7 @@ const About = () => {
           </div>
 
           <div className="flex flex-wrap">
-            <div className="w-5/6 sm:w-1/2 p-6">
+            <div className="xl:w-10/12 sm:1/2 p-6">
               <h3 className="text-3xl  font-bold leading-none mb-3">
                 Sign-to-Speech Translation
               </h3>
@@ -120,7 +116,7 @@ const About = () => {
           </div>
 
           <div className="flex flex-wrap flex-col-reverse sm:flex-row">
-            <div className="w-full sm:w-1/2 p-6 mt-6">
+            <div className="sm:w-1/2 xl:w-full  p-6 mt-6">
               <div className="align-middle">
                 <h3 className="text-3xl  font-bold leading-none mb-3">
                   Key Features
