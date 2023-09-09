@@ -71,7 +71,6 @@ p{
 /* styles.css */
 
 .container {
-  height: 150vh; /* Ensure there's enough content to scroll */
   overflow: hidden;
   position: relative;
 }

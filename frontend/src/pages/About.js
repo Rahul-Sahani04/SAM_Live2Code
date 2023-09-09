@@ -40,9 +40,11 @@ const About = () => {
             Unlock the World of Sign Language
           </p>
 
-          <button className="mx-auto lg:mx-0 hover:underline  font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48">
-            Get Started
-          </button>
+          <div className="flex items-center justify-start">
+            <button className="mx-auto lg:mx-0 hover:underline gradient2  font-extrabold rounded my-6 py-4 px-8 shadow-lg">
+              Get Started
+            </button>
+          </div>
           <a
             href="#"
             className="inline-block mx-auto lg:mx-0 hover:underline bg-transparent  font-extrabold my-2 md:my-6 py-2 lg:py-4 px-8"
@@ -68,7 +70,16 @@ const About = () => {
             SIGN LANGUAGE
           </h2>
         </div>
-        <div className="w-full flex items-center justify-center p-6">
+        
+ 
+      </div>
+
+      <section className="bg-gray-800 border-b py-8" id="about">
+        <div className="container max-w-5xl mx-auto m-8">
+          <h2 className="w-full my-2 text-5xl  leading-tight text-center ">
+            About Us
+          </h2>
+          <div className="w-full flex items-center justify-center p-6">
           {/* IMAGE */}
           <img
             style={{
@@ -78,13 +89,6 @@ const About = () => {
             alt="image1"
           />
         </div>
-      </div>
-
-      <section className="bg-gray-800 border-b py-8" id="about">
-        <div className="container max-w-5xl mx-auto m-8">
-          <h2 className="w-full my-2 text-5xl  leading-tight text-center ">
-            About Us
-          </h2>
           <div className="w-full mb-4">
             <div className="h-1 mx-auto  w-64 opacity-25 my-0 py-0 rounded-t"></div>
           </div>
@@ -163,11 +167,7 @@ const About = () => {
             </div>
           </div>
           {/* <div className="flex-none mt-auto  rounded-b rounded-t-none overflow-hidden shadow p-6"> */}
-          <div className="flex items-center justify-start">
-            <button className="mx-auto lg:mx-0 hover:underline gradient2  font-extrabold rounded my-6 py-4 px-8 shadow-lg">
-              Action
-            </button>
-          </div>
+
         </div>
 
         {/* </div> */}
