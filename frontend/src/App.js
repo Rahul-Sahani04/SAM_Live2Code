@@ -1,9 +1,7 @@
 import "./App.css";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Team from "./pages/Team";
+import Main from "./pages/Main";
 
-import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -11,8 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="home" element={<Home />} />
-        <Route path="contact" element={<Team />} /> */}
+        <Route path="/sign" element={<Main />} />
       </Routes>
     </BrowserRouter>
   );
