@@ -24,7 +24,7 @@ function Main() {
 
   useEffect(() => {
 
-    classifier = ml5.imageClassifier("/tfjs_model/model.json", () => {
+    classifier = ml5.imageClassifier("/model/model.json", () => {
       navigator.mediaDevices
         .getUserMedia({ video: true, audio: false })
         .then((stream) => {
