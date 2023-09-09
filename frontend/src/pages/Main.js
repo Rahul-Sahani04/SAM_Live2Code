@@ -24,7 +24,7 @@ function Main() {
 
   useEffect(() => {
 
-    classifier = ml5.imageClassifier("/model/modelV1.json", () => {
+    classifier = ml5.imageClassifier("https://raw.githubusercontent.com/Rahul-Sahani04/SAM_Live2Code/main/frontend/public/model/modelV1.json", () => {
       navigator.mediaDevices
         .getUserMedia({ video: true, audio: false })
         .then((stream) => {

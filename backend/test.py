@@ -70,7 +70,7 @@ model.compile(
 # Train the model
 model.fit(
     train_generator,
-    epochs=10,  # Adjust the number of epochs as needed
+    epochs=5,  # Adjust the number of epochs as needed
     validation_data=validation_generator
 )
 
