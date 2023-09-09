@@ -6177,7 +6177,7 @@
     "weightsManifest": [
         {
             "paths": [
-                "https://raw.githubusercontent.com/Rahul-Sahani04/SAM_Live2Code/main/frontend/public/model/metadata.json"
+                "weights.bin"
             ],
             "weights": [
                 {

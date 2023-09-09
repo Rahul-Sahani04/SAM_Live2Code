@@ -14,7 +14,9 @@ const Team = () => {
             </p>
           </div>
           <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-            <div class="items-center imgHover  bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+            <div
+            data-aos="fade-right"
+            class="items-center imgHover  bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <img
                 style={{
                   width: "30%",
@@ -95,7 +97,10 @@ const Team = () => {
                 </ul>
               </div>
             </div>
-            <div class="items-center imgHover  bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+
+            <div
+            data-aos="fade-right"
+            class="items-center imgHover  bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <img
                 style={{
                   width: "30%",
@@ -173,7 +178,9 @@ const Team = () => {
                 </ul>
               </div>
             </div>
-            <div class="items-center imgHover  bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+            <div
+            data-aos="fade-right"
+            class="items-center imgHover  bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <img
                 style={{
                   width: "30%",
@@ -253,7 +260,9 @@ const Team = () => {
                 </ul>
               </div>
             </div>
-            <div class="items-center imgHover  bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+            <div
+            data-aos="fade-right"
+            class="items-center imgHover  bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <img
                 style={{
                   width: "30%",

@@ -1,3 +1,4 @@
+import './Camera.css'
 const Camera = ({ videoRef, width, height }) => {
   return (
     <div className="camera">

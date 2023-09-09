@@ -37,7 +37,7 @@ const About = () => {
       <Navbar links={["Home", "About", "Contact"]} atag={["about", "team"]} />
 
       <div className="container mx-auto h-screen">
-        <div className="text-center px-3 lg:px-0">
+        <div data-aos="fade-right" className="text-center px-3 lg:px-0">
           <h1 className="heading mt-4 text-9xl md:text-3xl lg:text-5xl  leading-tight imgHover">
             SAM
           </h1>
@@ -59,7 +59,9 @@ const About = () => {
             View Additional Action
           </a> */}
         </div>
-        <div className="w-full flex items-center justify-center p-6 ">
+        <div
+        data-aos="fade-up"
+        className="w-full flex items-center justify-center p-6 ">
           {/* IMAGE */}
           <img
             className=""
@@ -80,7 +82,9 @@ const About = () => {
           <h2 className="w-full my-2 text-5xl  leading-tight text-center ">
             About Us
           </h2>
-          <div className="w-full flex items-center justify-center p-6">
+          <div 
+          data-aos="zoom-in-up"
+          className="w-full flex items-center justify-center p-6">
             {/* IMAGE */}
             <img
               style={{
@@ -99,7 +103,9 @@ const About = () => {
               <h3 className="text-3xl  font-bold leading-none mb-3">
                 Sign-to-Speech Translation
               </h3>
-              <p className=" mb-8">
+              <p
+              data-aos="fade-right"
+              className=" mb-8">
                 Sign language is a rich and expressive form of communication
                 used by millions of people around the world who are deaf or hard
                 of hearing. However, for those who do not understand sign
@@ -121,7 +127,9 @@ const About = () => {
                 <h3 className="text-3xl  font-bold leading-none mb-3">
                   Key Features
                 </h3>
-                <p className=" mb-8">
+                <p 
+                data-aos="fade-right"
+                className=" mb-8">
                   <ol type="1">
                     <li>
                       <b>1. Sign Language Recognition:</b> Our project employs
@@ -182,7 +190,9 @@ const About = () => {
             <div className="h-1 mx-auto  w-64 opacity-25 my-0 py-0 rounded-t"></div>
           </div>
 
-          <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div
+          data-aos="fade-up"
+          className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div className="content-container flex-1  rounded-t rounded-b-none overflow-hidden shadow">
               <a
                 href="#"
@@ -231,7 +241,9 @@ const About = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div
+          data-aos="fade-up"
+          className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div className="content-container flex-1  rounded-t rounded-b-none overflow-hidden shadow">
               <a
                 href="#"
@@ -291,7 +303,9 @@ const About = () => {
             </div>
           </div>
 
-          <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div
+          data-aos="fade-up"
+          className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div className="content-container flex-1  rounded-t rounded-b-none overflow-hidden shadow">
               <a
                 href="#"
