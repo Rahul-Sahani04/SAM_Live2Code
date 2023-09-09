@@ -23,19 +23,25 @@ To run this project, you will need the following:
 1. Clone the project repository:
 
 ```bash
-git clone https://github.com/your-username/asl-to-text-converter.git
+git clone https://github.com/Rahul-Sahani04/SAM_Live2Code.git
 ```
 
-2. Install the dependencies:
+2. Direct to frontend folder
+
+```bash
+cd frontend
+```
+
+3. Install the dependencies:
 
 ```bash
 npm install
 ```
 
-3. Start the development server:
+4. Start the development server:
 
 ```bash
 npm start
 ```
 
-4. Open your browser and go to http://localhost:3000 to see the app in action.
+5. Open your browser and go to http://localhost:3000 to see the app in action.
