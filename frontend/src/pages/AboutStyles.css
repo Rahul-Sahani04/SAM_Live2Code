@@ -1,0 +1,86 @@
+@import url("https://rsms.me/inter/inter.css");
+.imgHover:hover{
+  transition: all 300ms ease-in;
+  transform: scale(1.02);
+}
+html {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+
+/* Browser mockup code
+ * Contribute: https://gist.github.com/jarthod/8719db9fef8deb937f4f
+ * Live example: https://updown.io
+ */
+         
+ .gradient2 {
+  background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+  padding: 15px 45px; 
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.gradient2:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.browser-mockup {
+  border-top: 2em solid rgba(230, 230, 230, 0.7);
+  position: relative;
+  height: 60vh;
+}
+
+.browser-mockup:before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: -1.25em;
+  left: 1em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+}
+
+.browser-mockup>* {
+  display: block;
+}
+
+/* Custom code for the demo */
+.content-container {
+  background-color: #333333;
+  color: #FFFFFF;
+}
+p{
+  color: whitesmoke;
+}
+
+/* styles.css */
+
+.container {
+  height: 150vh; /* Ensure there's enough content to scroll */
+  overflow: hidden;
+  position: relative;
+}
+
+.animated-heading{
+transition: all 2s linear;
+transform: translateX(-220%);
+}
+
+#about {
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,4 @@
+.imgHover:hover{
+    transition: all 300ms ease-in;
+    transform: scale(1.02);
+}

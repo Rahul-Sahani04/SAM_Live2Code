@@ -1,13 +1,15 @@
 {
-  "name": "frontend",
+  "name": "project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@teachablemachine/image": "^0.8.5",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "aos": "^3.0.0-beta.6",
+    "bootstrap": "^5.3.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-webcam": "^7.1.1",
@@ -36,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.15.0",
+    "ml5": "^0.12.2"
   }
 }
