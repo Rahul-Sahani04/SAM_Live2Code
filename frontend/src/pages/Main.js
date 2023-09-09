@@ -135,11 +135,11 @@ function Main() {
             </button>
           )}
 
-          {speaking && <p>Speaking...</p>}
           <button
             className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
             value={"Click"} onClick={handleSpeak}>Play</button>
         </div>
+            {speaking && <p>Speaking...</p>}
 
         {/* Voice Selection Dropdown */}
 

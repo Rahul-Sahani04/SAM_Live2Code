@@ -80,4 +80,6 @@ model.save('sign_recognition_model.h5')
 # Save the model in TensorFlow.js format
 # tfjs.converters.save_keras_model(model, 'tfjs_model')
 # ! tensorflowjs_converter --input_format keras mymodel.h5 tfjs_model 
+# ! tensorflowjs_converter --input_format=keras_saved_model sign_recognition_model.h5 tfjs_model 
 
+# tensorflowjs_converter \ --input_format=keras_saved_model \ ./ \ ./predict_signs_tfjs

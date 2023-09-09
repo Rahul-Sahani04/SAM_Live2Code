@@ -32,11 +32,10 @@ const Team = () => {
                   Rahul Sahani
                 </h3>
                 <span class="text-gray-500 dark:text-gray-400">
-                  CEO & Web Developer
+                  Team Leader & Web Developer
                 </span>
                 <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                  Rahul Sahani drives the technical strategy of the SAM platform
-                  and brand.
+                  Rahul Sahani guides the team and Front-end development of Team SAM.
                 </p>
                 <ul class="flex space-x-4 sm:mt-0">
                   <li>
@@ -114,10 +113,9 @@ const Team = () => {
                 <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                   Vishvara Gandharv
                 </h3>
-                <span class="text-gray-500 dark:text-gray-400">CTO</span>
+                <span class="text-gray-500 dark:text-gray-400">UI/UX Designer</span>
                 <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                  Vishvara drives the technical strategy of the SAM platform and
-                  brand.
+                  Vishvara drives the technical strategy and designing of SAM.
                 </p>
                 <ul class="flex space-x-4 sm:mt-0">
                   <li>
@@ -195,11 +193,10 @@ const Team = () => {
                   Mir Anish
                 </h3>
                 <span class="text-gray-500 dark:text-gray-400">
-                  Senior Front-end Developer
+                  Front-end Developer
                 </span>
                 <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                  Mir Anish drives the technical strategy of the SAM platform
-                  and brand.
+                  Mir Anish drives the technical and Front-end development of SAM .
                 </p>
                 <ul class="flex space-x-4 sm:mt-0">
                   <li>
@@ -277,11 +274,10 @@ const Team = () => {
                   Pappu Manna
                 </h3>
                 <span class="text-gray-500 dark:text-gray-400">
-                  Marketing & Sale
+                  Backend Developer
                 </span>
                 <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                  Paps drives the technical strategy of the SAM platform and
-                  brand.
+                  Paps drives the Backend Developer of Team SAM.
                 </p>
                 <ul class="flex space-x-4 sm:mt-0">
                   <li>
